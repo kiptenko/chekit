@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 10px;
+	padding: 10px;
+	font-family: 'Georgia', sans-serif;
+}
+li {
+	display: inline;
+	padding: 20px;
+	
+
+}
+.header {
+	text-align: center;
+}
+.header_zagolovok {
+}
+.header_logo {
+	width: 200px;
+	margin-bottom: 10px;
+}
+.header_navigation {
+	font-size: 25px;
+	padding-bottom: 5px;
+	color: #000000;
+}
+
+.image{
+	height: 40px;
+	margin: 2px 0px 2px 0px;
+	background-color: #6f7431;
+	border-radius: 10px;
+}
+.page {
+	padding: 6px 20px 6px 20px;
+}
+.page_aboutApp {
+	color: #6f7431;
+}
+.page_download {
+	color: #6f7431;
+}
+.page_pricing {
+	color: #6f7431;
+}
+.page_aboutUs {
+	color: #6f7431;
+}
+.page_copirighting {
+	color: #6f7431;
+}
+.page_zagolovok {
+	font-size: 30px;
+	color: 	#d21819;
+}
+
+#forma_id {
+	display: none;
+}
+.forma {
+	padding: 6px 20px 20px 20px;
+	margin: 0px 0px 0px 0px;
+	display: grid;
+	width: 500px;
+
+}
+.forma_zagolovok {
+	font-size: 30px;
+	color: 	#6f7431;
+}
+.forma__button {
+	margin: 5px 5px 5px 0px;
+	width: 230px;
+}
+.forma__input:hover {
+	background-color: #ffe84b;
+	border-color: #0b00fe;
+}
+.forma__button:hover {
+	background-color: #ffe84b;
+}
+.forma__input:focus {
+	background-color: #ffe84b;
+	border-color: #0b00fe;
+}
+
+
+.footer {
+}
+.footer_developer {
+	margin: 12px 0px 0px 0px;
+	text-align: center;
+}
+
+a {
+	color: #d21819;
+	text-decoration: none;
+}
+a:hover {
+	color: #000098;
+}
+
+input[type="text"]{
+	padding: 8px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	margin: 0px 7px 7px 0px;
+}
+select {
+	padding:8px;
+	border-radius: 10px;
+	border: 1px solid grey;
+}
+textarea {
+	padding: 8px;
+	border-radius: 10px;
+	border: 1px solid grey;
+}
+button {
+	margin: 0px 0px 29px 20px;
+}
+#show_button:hover {
+	background-color: #ffe84b;
+}
+p{
+	margin: 20px 0;
+}
