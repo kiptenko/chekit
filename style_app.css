@@ -10,9 +10,16 @@ body {
 }
 li {
 	display: inline;
-	padding: 20px;
-	
+	padding: 20px;	
+}
+li:before{
+	content: "\262f";
+}
 
+p:first-letter {
+    font-family: 'Georgia' , serif;
+    font-size: 200%; 
+    color: red;
 }
 .header {
 	text-align: center;
