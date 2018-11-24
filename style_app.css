@@ -1,9 +1,11 @@
+@media screen and (min-width:100px) and (max-width:1024px) {
 *{
 	padding: 0;
 	margin: 0;
 }
 
 body {
+	width: 100%;
 	margin: 10px;
 	padding: 10px;
 	font-family: 'Georgia', sans-serif;
@@ -135,4 +137,5 @@ button {
 }
 p{
 	margin: 20px 0;
+}
 }
